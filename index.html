@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecion Española de Futbol</title>
+    <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="javascripts/misfunciones.js"></script>
+    <script></script>
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <!-- en href hay que indicar el id de la section
+                     con la que quiero enlazar el vínculo-->
+                <a href="#hero" class="active">Inicio</a>
+                <a href="#introduccion">Introduccion</a>
+                <a href="#historia">Historia</a>
+                <a href="#trofeos">Trofeos</a>
+                <a href="#jugadores">Jugadores importantes</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#footer">Contacto</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+        </nav>
+        <!--  HERO SECTION CON IMAGEN FIJA Y TEXTO -->
+        <section id="hero">
+            <h1>Selecion Española</h1>
+           
+
+        </section>
+        <!-- INTRODUCCION ES UNA SECTION CON SOLO TEXTO -->
+        <section id="introduccion">
+            <h1>Introduccion</h1>
+            <p>La selección de fútbol de España es, desde su creación en el año 1920, el equipo formado por jugadores de nacionalidad española que representa a la Real Federación Española de Fútbol (RFEF) en las competiciones oficiales organizadas por la Unión de Asociaciones Europeas de Fútbol (UEFA) y la Federación Internacional de Fútbol Asociación (FIFA).</p>
+
+            <p>La selección española ha disputado quince ediciones del Mundial y fue la anfitriona en 1982. En 2010, cosechó el mayor éxito de su historia al proclamarse campeona del mundo. Los reconocimientos más destacados por la conquista mundialista fueron el Premio Príncipe de Asturias de los Deportes y fue nombrada en 2013, por sexta vez consecutiva, el Mejor Equipo del año por la FIFA.</p>
+        </section>
+        <!-- esta sección incluye imagen y texto combinado -->
+        <section id="historia">
+          
+           <img id="inicios" src="imagenes/inicios.jpg" alt="Inicios de la Selecion de España"><h1>Historia</h1><p>La selección española fue creada en 1920 con el objetivo de presentar un equipo de fútbol que representase a España en los Juegos Olímpicos de ese mismo año en Amberes.</p>
+
+            <p>La selección disputó su primer partido oficial, donde se enfrentó en la fase previa a la selección de Dinamarca. Este encuentro, que ganó por 1-0. En la posterior fase final, le tocó enfrentarse a la anfitriona selección belga en cuartos de final, frente a la que cayó derrotada por 3-1.</p>
+            
+            <p>España pasó a incorporarse a un torneo de consolación tras quedar descalificada la selección checoslovaca. El enfrentamiento frente a la selección italiana fue saldado con una victoria que les permitió luchar por las medallas frente a los semifinalistas del torneo: Países Bajos, Francia y Checoslovaquia. El equipo de los Países Bajos fue el único rival de España , al que derrotó por 3-1. España ganaba así la medalla de plata.
+        </section>
+        
+        <!-- SECTION DIVIDIDA EN DOS COLUMNAS Y RESPONSIVE -->
+        <!-- la section tiene una clase de tipo grid 2 columnas-->
+        <section id="trofeos" class="grid-2">
+          
+           <!-- pongo dos bloques div de la clase item-grid-2 -->
+           
+           <div class="item-grid-2">
+             
+                <img id="trofeo" src="imagenes/trofeos.jpg" alt="Trofeos ganados">
+           </div>
+           <div class="item-grid-2">
+             <h1>Trofeos</h1>
+                <p>España alzó su primera gran trofeo en la Eurocopa de 1964, cuya fase final tuvo lugar en Madrid. El equipo de José Villalonga superó en la semifinal a Hungría tras la prórroga.<p></p>
+
+               <p>La selección española alcanzó un hito histórico al enlazar las Eurocopas de Austria-Suiza 2008, con el gol de Fernando Torres ante Alemania en la final, y Polonia-Ucrania 2012, con una exhibición ante Italia en Kiev, y el Mundial de Sudáfrica 2010, con ese gol de Iniesta a Holanda en la final con Vicente del Bosque de entrenador. Fue la mejor selección del mundo sin duda.</p> <p>La gloria acabó en Brasil 2014, donde cayó ante Holanda en la fase de grupos. Tampoco mejoró en la Euro de Francia 2016 y en el Mundial de Rusia 2018, en los que se quedó en octavos</p> 
+           </div>
+        </section>
+        <!-- sección con grid a 4 columnas -->
+        <section id="jugadores" class="grid-4">
+            <!-- CARD NÚMERO 1 -->
+            
+            <div class="item-grid-4">
+                <img src="https://piks-eldesmarqueporta.netdna-ssl.com/bin/2019/06/10/ramos_celebrando11jpg.jpg" alt="Sergio Ramos">
+                <p>Es internacional absoluto con la selección española desde 2005 y su capitán desde 2016. Con ella se ha proclamado bicampeón de Europa, y campeón del mundo.​</p>
+                <!-- EL BOTÓN DISPARA VENTANA MODAL-->
+                <button id="myBtn">Leer más</button> 
+                
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Es el futbolista español con más internacionalidades desde el 12 de octubre de 2019, registro que también posee a nivel europeo tras igualar a Gianluigi Buffon, mientras que a nivel mundial es el futbolista con más victorias en partidos de selección. Elegido por la prestigiosa revista France Football en su Dream Team histórico como uno de los diez mejores centrales de la historia, se encuentra entre los diez defensores con más goles de la historia, en el segundo puesto de la historia del campeonato de liga de España y el segundo en la historia de la Liga de Campeones. Ha sido nominado al Balón de Oro en seis ocasiones, y ostenta el récord como defensor más premiado en los onces ideales de FIFA y UEFA.
+                        </p>
+    </div>
+  
+  </div>
+            </div>
+            <!-- CARD NÚMERO 2 -->
+            <div class="item-grid-4">
+                <img src="https://imagenes.20minutos.es/files/article_amp/uploads/2010/09/03/1109445a.jpg" alt="David Villa">
+                <p>Con la selección española, debutó contra San Marino el 9 de febrero de 2005. Desde entonces, ha participado en el Mundial 2006, donde marcó tres goles; en la Eurocopa 2008, en la que se proclamó campeón de Europa​ y fue máximo goleador con cuatro tantos.</p>
+                <button id="myBtn2">Leer más</button> 
+                <div id="myModal2" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span2 class="close">&times;</span2>
+                      <p>En el Mundial 2010, donde consiguió el campeonato del mundo y obtuvo, además, la Bota de Plata como segundo mayor anotador, empatado a cinco dianas con Thomas Müller, y el Balón de Bronce como tercer mejor jugador del campeonato; y en el Mundial 2014. También es el futbolista con mayor número de goles en la historia de la selección, cincuenta y nueve, y el máximo goleador español en Copas del Mundo, con nueve tantos repartidos en sus tres participaciones. En 2011 fue galardonado con la Medalla de Oro de la Real Orden del Mérito Deportivo, máxima distinción individual del deporte otorgada en España.
+                      </p>
+                    </div>
+                  
+                  </div>
+
+
+
+            </div>
+            <!-- CARD NÚMERO 3 -->
+            <div class="item-grid-4">
+              <img src="https://cloudfront-eu-central-1.images.arcpublishing.com/prisa/LAF43CRJI34M655F46UGYFAT24.jpg" alt="Andres Iniesta">
+              <p>   Como internacional español, se proclamó consecutivamente con las categorías juveniles de la selección nacional, campeón continental sub-16 en 2001, sub-19 en 2002 y subcampeón mundial juvenil en 2003. 
+              </p>
+              <button id="myBtn3">Leer más</button> 
+              <div id="myModal3" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span3 class="close">&times;</span3>
+                    <p>Debutó con la selección española en el Estadio Carlos Belmonte de Albacete en 2006 frente a Rusia, siendo internacional absoluto con España hasta 2018, totalizando 131 partidos y 14 goles, por lo que es uno de los jugadores miembro del FIFA Century Club, formado por aquellos futbolistas con más de cien internacionalidades con su selección. Con ella se proclamó bicampeón de Europa en 2008 y 2012, siendo pieza clave en la consecución de ambos títulos, y campeón del mundo en 2010, anotando el célebre gol de la victoria ante los Países Bajos en el minuto 116 de la final que dio el título mundial a España. Estos éxitos le valieron para ser nombrado Jugador del Partido de la Final de la Eurocopa y Jugador del Partido de la Final de la Copa del Mundo. Además, fue subcampeón de la Copa Confederaciones en 2013 y medalla de bronce en la Copa Confederaciones de 2009.
+                    </p>
+                  </div>
+                
+                </div>
+
+
+
+          </div>
+            <!-- CARD NÚMERO 4 -->
+            <div class="item-grid-4">
+                <img src="https://i.pinimg.com/originals/78/e5/30/78e5304162acd7be1d06bba2a2a904a8.jpg" atl="Fernando Torres">
+                <p>Como internacional español, se proclamó consecutivamente con las categorías juveniles de la selección nacional, campeón de Europa sub-16 en 2001 y sub-19 en 2002, siendo además máximo goleador y nombrado mejor jugador en ambos torneos. ​</p>
+                <button id="myBtn4">Leer más</button> 
+                <div id="myModal4" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span4 class="close">&times;</span4>
+                      <p>Fue internacional absoluto con España entre 2003 y 2014, totalizando 110 partidos y 38 goles. Con ella se proclamó campeón del mundo en 2010 y doble campeón de Europa en 2008 (marcando el célebre gol de la victoria en la final ante Alemania) y 2012 (marcando también en la final ante Italia).En el Mundial 2010, donde consiguió el campeonato del mundo y obtuvo, además, la Bota de Plata como segundo mayor anotador, empatado a cinco dianas con Thomas Müller, y el Balón de Bronce como tercer mejor jugador del campeonato; y en el Mundial 2014. También es el futbolista con mayor número de goles en la historia de la selección, cincuenta y nueve, y el máximo goleador español en Copas del Mundo, con nueve tantos repartidos en sus tres participaciones. En 2011 fue galardonado con la Medalla de Oro de la Real Orden del Mérito Deportivo, máxima distinción individual del deporte otorgada en España.
+                     </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- SECCIÓN GALERIA -->
+        <section id="galeria">
+          <h1>Galeria</h1>
+          <div class="row">
+            <div class="column">
+              <img src="imagenes/galeria/degea.png">
+              <img src="imagenes/galeria/kepa.png">
+              <img src="imagenes/galeria/paulopez.png">
+            </div>
+            <div class="column">
+              <img src="imagenes/galeria/alba.png">
+              <img src="imagenes/galeria/ramos.png">
+              <img src="imagenes/galeria/hermoso.png">
+              <img src="imagenes/galeria/sergi.png">
+            </div>
+            <div class="column">
+              <img src="imagenes/galeria/busquest.png">
+              <img src="imagenes/galeria/isco.png">
+              <img src="imagenes/galeria/ceballos.png">
+              <img src="imagenes/galeria/saul.png">
+              
+            </div>
+            <div class="column">
+              <img src="imagenes/galeria/asensio.png">
+              <img src="imagenes/galeria/aspas.png">
+              <img src="imagenes/galeria/morata.png">
+              <img src="imagenes/galeria/rodrigo.png">
+            </div>
+          </div>
+        </section>
+        <!-- CONSTRUIMOS EL FOOTER CON UN GRID DE 3 COLUMNAS -->
+        <section id="footer"> <footer class="grid-3">
+          <!-- columna 1 para redes sociales -->
+          <div class="item-grid-3">
+            <h3>Redes Sociales</h3>
+            <a href="https://es-es.facebook.com/SeFutbol/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/SeFutbol" class="fa fa-twitter"></a>
+            <a href="https://www.youtube.com/user/SeFutbol" class="fa fa-youtube"></a>
+            <a href="https://www.instagram.com/sefutbol/?hl=es" class="fa fa-instagram"></a>
+          </div>
+          <!-- columna 2 para teléfono, dirección, email-->
+          <div class="item-grid-3">
+            <h3>Contacto:</h3>
+            <p>C/ Ramón y Cajal, 28232 Las Rozas,<br> Madrid, España</p>
+            <p>Teléfono: 914 959 850 </p>
+            <p>E-mail: selecionespañola@gmail.com</p>
+          </div>
+          <!-- columna 3 para Google Maps-->
+          <div class="item-grid-3">
+             <h3>Donde estamos:</h3>
+             <div class="contenedor">
+             <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3032.9202813622196!2d-3.900630985375477!3d40.52125307935307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418328ca82233b%3A0x3d1821d89754a312!2sReal%20Federaci%C3%B3n%20Espa%C3%B1ola%20de%20F%C3%BAtbol!5e0!3m2!1ses!2ses!4v1607634621667!5m2!1ses!2ses"   frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+           </div>
+          </div>
+       </footer>
+   </div>
+  </section>
+       
+
+
+    <script src="javascripts/funciones.js"></script>
+  
+    <script>
+        // Get the modal
+        /**** PONER UN VAR CON NOMBRE DISTINTO POR CADA MODAL **/
+        var modal = document.getElementById("myModal");
+        var modal2 = document.getElementById("myModal2");
+        var modal3 = document.getElementById("myModal3");
+        var modal4 = document.getElementById("myModal4");
+        // Get the button that opens the modal
+        /**** PONER UN VAR CON NOMBRE DISTINTO POR CADA BOTÓN **/
+        var btn = document.getElementById("myBtn");
+        var btn2 = document.getElementById("myBtn2");
+        var btn3 = document.getElementById("myBtn3");
+        var btn4 = document.getElementById("myBtn4");
+        // Get the <span> element that closes the modal
+        /**** PONER UN VAR CON NOMBRE DISTINTO POR CADA NÚMERO DE 0 A 3 **/    
+        var span = document.getElementsByClassName("close")[0];
+        var span2 = document.getElementsByClassName("close")[1];
+        var span3 = document.getElementsByClassName("close")[2];
+        var span4 = document.getElementsByClassName("close")[3];
+        // When the user clicks the button, open the modal 
+        /**** PONER UNA FUNCIÓN CON NOMBRE DISTINTO POR CADA BOTÓN **/
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        btn2.onclick = function() {
+          modal2.style.display = "block";
+        }
+        btn3.onclick = function() {
+          modal3.style.display = "block";
+        }
+        btn4.onclick = function() {
+          modal4.style.display = "block";
+        }
+        // When the user clicks on <span> (x), close the modal
+        /**** PONER UNA FUNCIÓN CON NOMBRE DISTINTO POR CADA FUNCIÓN **/    
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        span2.onclick = function() {
+          modal2.style.display = "none";
+        }
+        span3.onclick = function() {
+          modal3.style.display = "none";
+        }
+        span4.onclick = function() {
+          modal4.style.display = "none";
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
+</body>
+</html>
+
+
